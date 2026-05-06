@@ -39,4 +39,46 @@
    метод GET
    endpoint url: https://api.petrushla-zelenaya.ru/api/v1/partners/stores?lat=55.75&lon=37.61
 
-2.
+2. Ответ REST API request в формате JSON
+
+{
+  "status": "success",
+  "data": {
+    "stores": [
+      {
+        "id": "m1-metro",
+        "name": "METRO",
+        "logo_url": "https://api.petrushka-zelenaya.ru/static/logos/metro.png",
+        "delivery_info": "Ближайшая доставка сегодня 21:00-23:00",
+        "is_fast_delivery": false,
+        "external_url": "http://app-metro-marcets.ru/openapi/v2/orders"
+      },
+      {
+        "id": "a1-auchan",
+        "name": "Ашан",
+        "logo_url": "https://api.petrushka-zelenaya.ru/static/logos/auchan.png",
+        "delivery_info": "Ближайшая доставка сегодня 18:00-20:00",
+        "is_fast_delivery": false,
+        "external_url": "http://app-auchan.ru/openapi/v2/orders/"
+      },
+      {
+        "id": "v1-vkusvill",
+        "name": "ВкусВилл",
+        "logo_url": "https://api.petrushka-zelenaya.ru/static/logos/vkusvill.png",
+        "delivery_info": "от 20 до 60 минут",
+        "is_fast_delivery": true,
+        "external_url": "http://app-vkusvill.ru/openapi/v2/orders/"
+      },
+      {
+        "id": "vi1-viktoria",
+        "name": "ВИКТОРИЯ",
+        "logo_url": "https://api.petrushka-zelenaya.ru/static/logos/viktoria.png",
+        "delivery_info": "Ближайшая доставка сегодня 17:00-19:00",
+        "is_fast_delivery": false,
+        "external_url": "http://app-victoria-group.ru/openapi/v2/orders/"
+      }
+    ]
+  }
+}
+
+
