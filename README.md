@@ -40,7 +40,7 @@
    endpoint url: https://api.petrushla-zelenaya.ru/api/v1/partners/stores?lat=55.75&lon=37.61
 
 2. Ответ REST API request в формате JSON
-
+```json
 {
   "status": "success",
   "data": {
@@ -80,5 +80,5 @@
     ]
   }
 }
-
+```
 
