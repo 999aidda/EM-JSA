@@ -82,3 +82,17 @@
 }
 ```
 
+## Задание 3: Архитектура системы PUSH-уведомлений
+
+Для реализации функционала PUSH-уведомлений спроектирована верхнеуровневая архитектурная схема. 
+Система построена на принципах асинхронного взаимодействия и микросервисного подхода.
+
+[🔗 Открыть архитектурную схему PUSH-уведомлений в Miro](https://miro.com/welcomeonboard/bHVvcUc3SUV5SyswK1lydUNsRHAwNW9yZVRBUFBiOTJvY3BBalpkVU1HYW9QbWFYZzZSSmNOK0dMcFJjNTE3M0RnMkZ0RUU0bzM2WU9OQ2tINlZGY2xhRHNDeXlMYlJjeVIvcWM3ZndDeFplTDJEWks3Z1BBNWpYOVlNWFRWVUVBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=915309489525)
+
+<img width="1538" height="1015" alt="My First Board" src="https://github.com/user-attachments/assets/76e51cb5-e024-4556-b63f-a6f36f04ac31" />
+
+### Краткое описание компонентов:
+1. **Бизнес сервис**: Инициаторы событий (заказ отменен, брошенная корзина).
+2. **Очередь сообщений Broker (Kafka/RabbitMQ)**: Обеспечивает асинхронность и отказоустойчивость.
+3. **Сервис уведомлений (Notification Service)**: "Мозг" системы, который сопоставляет пользователя с его устройством через БД токенов.
+4. **FCM/APNs**: Внешние шлюзы для доставки уведомлений на Android и iOS и др.
