@@ -87,7 +87,7 @@
 Для реализации функционала PUSH-уведомлений спроектирована верхнеуровневая архитектурная схема. 
 Система построена на принципах асинхронного взаимодействия и микросервисного подхода.
 
-[🔗 Открыть архитектурную схему PUSH-уведомлений в Miro](https://miro.com/welcomeonboard/bHVvcUc3SUV5SyswK1lydUNsRHAwNW9yZVRBUFBiOTJvY3BBalpkVU1HYW9QbWFYZzZSSmNOK0dMcFJjNTE3M0RnMkZ0RUU0bzM2WU9OQ2tINlZGY2xhRHNDeXlMYlJjeVIvcWM3ZndDeFplTDJEWks3Z1BBNWpYOVlNWFRWVUVBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=915309489525)
+[🔗 Открыть архитектурную схему PUSH-уведомлений в Miro](https://miro.com/app/board/uXjVHX029lE=/?share_link_id=516864772339)
 
 <img width="1538" height="1015" alt="My First Board (1)" src="https://github.com/user-attachments/assets/e58e11cf-5792-441f-add1-c63871676b42" />
 
